@@ -1,0 +1,22 @@
+.Image1 {
+     height: 100%;
+     width: 100%;
+     display: flex;
+}
+
+.Image2 {
+     height: 100%;
+     width: 100%
+}
+
+.Image3 {
+     display: flex;
+     height: 100%;
+     width: 100%;
+}
+
+/* .Image4 {
+     display: flex;
+     height: 30%;
+     width: 100%;    
+} */

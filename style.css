@@ -1,22 +1,544 @@
 .Image1 {
-     height: 100%;
+     height: 85%;
      width: 100%;
      display: flex;
 }
+.oo p {
+     text-align: center;
+     color: aliceblue;
+     padding: 10px;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
 
+}
 .Image2 {
-     height: 100%;
+     height: 85%;
      width: 100%
 }
-
+.pp p{
+     text-align: center;
+     color: aliceblue;
+     padding: 9px;
+     text-transform: uppercase;
+     font-weight: bold;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
 .Image3 {
      display: flex;
      height: 100%;
      width: 100%;
 }
-
-/* .Image4 {
+/* ****************************************** */
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .nav {
+     background-color: #0065c3;
+ 
      display: flex;
-     height: 30%;
-     width: 100%;    
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 1%;
+     padding-right: 1%;
+     font-size:smaller;
+     font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+     /* position: fixed;  */
+ }
+ 
+ .navleft ul {
+     display: flex;
+     align-items: center;
+     color: white;
+     list-style: none;
+     text-decoration: none;
+     text-decoration-line: none;
+ }
+ 
+ .navleft ul li {
+     text-transform: uppercase;
+     padding-left: 30px;
+     text-overflow: hidden;
+     font-style: "Sofia Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+ 
+ .navleft ul li a:link {
+     color: white;
+     text-decoration: none;
+     font-weight: bolder;
+ }
+ 
+ .navleft ul li a:visited {
+     color: white;
+     text-decoration: none;
+     font-weight: bolder;
+ }
+ 
+ .navleft ul li a:hover {
+     color: rgb(255, 0, 0);
+     transition: 0.25s;
+ }
+ 
+ .navleft ul li select {
+     background-color: transparent;
+     color: white;
+     border: 0px;
+     font-weight: bolder;
+     font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+ 
+ }
+ 
+ .navleft ul li img:hover {
+     translate: 30;
+     transition: 0.25s;
+ }
+ 
+ .navright {
+     padding-right: 5%;
+ }
+ 
+ .navright button {
+     background-color: transparent;
+     text-transform: uppercase;
+     color: white;
+     border-color: white;
+     width: 130%;
+     font-weight: bolder;
+     height: 30px;
+     border-radius: 70px 70px 70px 70px / 50px 50px 50px 50px;
+     border-width: 2px;
+     font-weight: bolder;
+     font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+ 
+ }
+ 
+ .navright button:hover {
+     background-color: white;
+     color: #0065c3;
+     transition: 0.25s;
+ }
+ /* ****************************************** */
+
+ .page1 {
+     background-image: url(./Assets/images/background.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+ .page1 .content1 {
+     width: 50%;
+     height: 100%;
+     display: flex;
+     justify-content: flex-end;
+     overflow: hidden;
+     
+ }
+ .page1 .content1 img {
+     translate: 0px 90px;
+ }
+
+ .page1 .content2 {
+     margin-top: 10%;
+     width: 50%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: end;
+     align-items: flex-start;
+ 
+ }
+ 
+ .page1 .content2 img {
+     width: 30%;
+     height: 50%;
+     position: absolute;
+     top: 20%;
+     left: 48%;
+ 
+ 
+ }
+ 
+ .page1 .content2 button {
+     position: absolute;
+     top: 80%;
+     left: 53.5%;
+     background-color: transparent;
+     text-transform: uppercase;
+     color: white;
+     border-color: white;
+     width: 10%;
+     font-weight: bolder;
+     height: 35px;
+     border-radius: 70px 70px 70px 70px / 50px 50px 50px 50px;
+     border-width: 2px;
+ 
+ }
+ 
+ .page1 .content2 button:hover {
+     background-color: white;
+     color: #0065c3;
+     transition: 0.25s;
+ }
+ 
+ .page1 .content2 .text {
+     position: absolute;
+     bottom: 38%;
+     width: 21%;
+     left: 55%;
+ }
+ 
+ .page1 .content2 .text p {
+     font-family: "Sofia Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     color: white;
+     font-size: 70%;
+     text-align: center;
+     font-weight: bold;
+     position: absolute;
+     top: 100%;
+ }
+ 
+ .page1 .content2 .text a {
+     text-decoration: none;
+ }
+ 
+ .page1 .content2 .text a:visited {
+     color: white;
+ }
+
+  /* ****************************************** */
+ 
+ .page4 {
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+ }
+.page4 video {
+    width: 100%;
+    height: 100vh;  
+}
+/* ********************************** */
+
+.page3 {
+    /* background-color: #000; */
+    background-image: url(./Assets/images/Desktop_Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.page3 .c {
+    display: flex;
+}
+
+.page3 .c-a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: end;
+
+}
+
+.page3 .c-a .c-a-1 img {
+    width: 50%;
+    position: relative;
+    margin-left: 70%;
+    margin-top: 8%;
+    overflow: hidden;
+    justify-content: flex-end;
+}
+
+.page3 .c-b .c-b-1 img {
+    width: 70%;
+    position: relative;
+    margin-top: 20%;
+}
+
+.page3 .c-b .c-b-1 h2 {
+    color: white;
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    margin-left: 10%;
+    font-size: x-large;
+}
+
+.page3 .c-b .c-b-1 button {
+    background-color: transparent;
+    text-transform: uppercase;
+    color: white;
+    border-color: white;
+    width: 20%;
+    margin-left: 25%;
+    font-weight: bolder;
+    height: 35px;
+    border-radius: 70px 70px 70px 70px / 50px 50px 50px 50px;
+    border-width: 2px;
+    font-weight: bolder;
+}
+
+.page3 .c-b .c-b-1 button:hover {
+    background-color: white;
+    color: #0065c3;
+    transition: 0.25s;
+}
+/* **************************************************************** */
+.main {
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.child {
+    height: 50vh;
+    width: 95%;
+    background-color: blue;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+/* .main p {
+    margin-top: 0%;
+    font-size: xx-large;
+    font-weight: bold;
+    color: aliceblue;
+
 } */
+
+.child1 {
+    display: flex;
+    width: 20%;
+    height: 50vh;
+}
+.child2 {
+    display: flex;
+    width: 20%;
+    height: 50vh;
+}
+.child3 {
+    display: flex;
+    width: 20%;
+    height: 50vh;
+}
+.child4 {
+    display: flex;
+    width: 20%;
+    height: 50vh;
+}
+.child5 {
+    display: flex;
+    width: 15%;
+    height: 50vh;
+}
+/* *********************************** */
+.page2 {
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.page2 .c1 {
+    width: 50%;
+    height: 100%;
+    display: flex
+}
+
+.page2 .c1 .i1 img {
+    position: relative;
+    bottom: 0.5%;
+    width: 250%;
+    margin-left: 5%;
+    z-index: 0;
+}
+
+.page2 .c1 .i2 {
+    z-index: 1;
+}
+
+.page2 .c1 .i2 img {
+    position: relative;
+    top: 10%;
+}
+
+.c2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 6%;
+    padding-top: 4%;
+    width: 50%;
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.c2 .i-a img {
+    width: 55%;
+}
+
+.c2 .i-b {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.c2 .i-b img {
+    width: 50%;
+}
+
+.page2 .c2 .i-c {
+    margin-top: 1%;
+    display: flex;
+    gap: 3%;
+    text-align: center;
+}
+
+.page2 .c2 .i-c .i-c-1 {
+    /* background-image: url('../assesst/images/link\ 1\ second\ pafe.png'); */
+    background-image: url(./assesst/images/link1secondpafe.png);
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+
+    position: relative;
+}
+
+.page2 .c2 .i-c .i-c-2 {
+    background-image: url(./assesst/images/link2secondpage.png);
+    /* background-color: red; */
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.page2 .c2 .i-c .i-c-1 .i-c-1-a {
+    width: 150px;
+    height: 100px;
+    background-color: #0065c3ce;
+    position: absolute;
+    bottom: 5px;
+    left: 25%;
+}
+
+.page2 .c2 .i-c .i-c-2 .i-c-2-a {
+    width: 150px;
+    height: 100px;
+    background-color: #0065c3ce;
+    position: absolute;
+    bottom: 5px;
+    left: 25%;
+}
+
+.page2 .c2 .i-c .i-c-2 p {
+    position: relative;
+    top: 150px;
+    font-weight: bolder;
+    margin-top: 15px;
+
+}
+
+/* .page2 .c2 .i-c .i-c-2 p{ */
+.page2 .c2 .i-c .i-c-1 p {
+    position: relative;
+    top: 150px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.page2 .c2 .i-c .i-c-1 img{
+    width: 30%;
+    margin-top: 20px;
+}
+.page2 .c2 .i-c .i-c-2 img{
+    width: 30%;
+    margin-top: 20px;
+
+    }
+    .page2 .c2 .i-c a{
+        text-decoration: none;
+        color: white;
+    }
+    /* ****************************************** */
+    .footer {
+        width: 100vw;
+        height: 50vh;
+        background-color: #0065c3;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        text-transform: uppercase;
+        overflow: hidden;
+    }
+    
+    .footer .logo {
+        margin-left: 3%;
+    }
+    
+    .footer .logo img {
+        width: 100%;
+    }
+    
+    .footer .pages {
+        display: flex;
+    }
+    
+    .footer .pages .pages-1 ul,
+    .pages-2 ul,
+    .pages-3 ul {
+        list-style: none;
+    }
+    
+    .pages-2,
+    .pages-3 {
+        margin-left: 50px;
+    }
+    
+    .footer .pages .pages-1 ul a:link,
+    .pages-2 ul a:link,
+    .pages-3 ul a:link {
+        color: white;
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+    }
+    
+    .footer .pages .pages-1 ul a:visited,
+    .pages-2 ul a:visited,
+    .pages-3 ul a:visited {
+        color: white;
+    }
+    
+    .links {
+        margin-right: 4%;
+        /* background-color: red; */
+        width: auto; /* Adjust width as needed */
+        height: auto; /* Adjust height as needed */
+        display: flex;
+        align-items: center; /* Align items vertically in the middle */
+        gap: 20px; /* Add some space between images */
+    }
+    
+    .links a {
+        display: block; /* Set the anchor tag as a block element */
+    }
+    
+    .links img {
+        width: 30px; /* Adjust width as needed */
+        height: 30px; /* Adjust height as needed */
+    }
+    .footer .pages .pages-1 ul li a:hover, .pages-2 ul li a:hover , .pages-3 ul li a:hover, .footer .links a:hover{
+        filter: brightness(83%);
+        transition: 0.25s ease;
+    }
